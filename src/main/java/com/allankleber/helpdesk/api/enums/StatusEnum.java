@@ -9,7 +9,7 @@ public enum StatusEnum {
 	Desapproved,
 	Closed;
 	
-	private static StatusEnum getStatus(String status) 
+	public static StatusEnum getStatus(String status) 
 	{
 		switch (status) {
 		case "New":return New;
